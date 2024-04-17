@@ -88,8 +88,8 @@ app.use((req,res,next)=>{
 });
 
 
-//routing
 
+//routing --
 app.use("/listing" , listingRouter);
 app.use("/listing/:id/reviews" ,reviewRouter);
 app.use("/", userRouter);
